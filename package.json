@@ -1,0 +1,26 @@
+{
+  "name": "nodejs-express",
+  "version": "1.0.0",
+  "description": "expressJs lesson",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon --inspect index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/DatEdric/expressJs.git"
+  },
+  "author": "tandat",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DatEdric/expressJs/issues"
+  },
+  "homepage": "https://github.com/DatEdric/expressJs#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  }
+}
